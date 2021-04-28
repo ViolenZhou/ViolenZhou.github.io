@@ -1,0 +1,50 @@
+/*添加图片top*/
+// 判断移动端设备
+browserRedirect();
+
+function browserRedirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+        var top_up = "<img class='upj' src='https://cdn.jsdelivr.net/gh/lete114/CDN/Use/up.gif'>";
+        /*添加到返回顶部按钮下*/
+        document.getElementById("go-up").innerHTML += top_up;
+    }
+    
+}
+
+// 可爱的Title
+var OriginTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(＃°Д°)！！ 页面崩溃啦！！';
+        clearTimeout(titleTime);
+    } else {
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(*´∇｀*) 噫~又好啦~~' + OriginTitle;
+        titleTime = setTimeout(function() {
+            document.title = OriginTitle;
+        }, 2000);
+    }
+});
+
+
+// 设置页脚博主
+$(document).ready(function(e) {
+    // 自己的请自行更改
+    var since = 2021;
+    var name = 'Violen';
+    var now = new Date();
+    var nowYear = now.getFullYear();
+    since = since == nowYear?since:since+" - "+nowYear;
+    $('.copyright').html('©'+since+' <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> '+name);
+});
