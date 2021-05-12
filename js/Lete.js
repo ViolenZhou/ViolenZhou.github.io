@@ -48,7 +48,7 @@ $(document).ready(function(e) {
   var now = new Date();
   var nowYear = now.getFullYear();
   since = since == nowYear?since:since+" - "+nowYear;
-  $('.copyright').html('©'+since+' <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;"  class="fa fa-heartbeat"></i> '+name);
+  $('.copyright').html('©'+since+'  <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;"  class="fa fa-heartbeat"></i>  '+name);
 });
 
 

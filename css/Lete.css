@@ -107,7 +107,8 @@ a i:hover,body a:hover,button i:hover,button:hover {
 }
 
 .copyright {
-	color: #e58a8a
+	font-size: 15px;
+	color: #FF6A6A;
 }
 
 ::-webkit-scrollbar {
