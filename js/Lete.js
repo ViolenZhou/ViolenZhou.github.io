@@ -17,7 +17,6 @@ function browserRedirect() {
         /*添加到返回顶部按钮下*/
         document.getElementById("go-up").innerHTML += top_up;
     }
-    
 }
 
 // 可爱的Title
