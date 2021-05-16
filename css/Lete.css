@@ -24,9 +24,9 @@ a i:hover,body a:hover,button i:hover,button:hover {
 } */
 
 
-#page-header {
+/* #page-header {
 	background-color: transparent
-}
+} */
 
 #nav a {
 	color: #f9f2f4
@@ -89,10 +89,10 @@ a i:hover,body a:hover,button i:hover,button:hover {
 	color: #c7254e;
 	background-color: #f9f2f4
 }
-
+/* 
 #footer {
 	background: 0 0
-}
+} */
 
 .footer_custom_text {
 	color: #00c4b6
