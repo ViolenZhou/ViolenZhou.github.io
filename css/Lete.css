@@ -8,11 +8,11 @@
 
 /*  鼠标    */
 body * {
-	cursor: url(https://z3.ax1x.com/2021/04/28/gihnG6.png),auto!important
+	cursor: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/image/Arrow.png),auto!important
 }
 
 a i:hover,body a:hover,button i:hover,button:hover {
-	cursor: url(https://z3.ax1x.com/2021/04/28/gihuRK.png),auto!important
+	cursor: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/image/Hand2.png),auto!important
 }
 
 /* #article-container.post-content h1:before,h2:before,h3:before,h4:before,h5:before,h6:before {
