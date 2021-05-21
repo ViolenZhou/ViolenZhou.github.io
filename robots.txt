@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
+Allow: /about/
+Allow: /links/
+Allow: /msgboard/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /img/
+
+Sitemap: https://lzzviolen.com/sitemap.xml
+Sitemap: https://lzzviolen.com/baidusitemap.xml
