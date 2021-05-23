@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lzzviolen.com/link/index.html</loc>
+    
+    <lastmod>2021-05-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://lzzviolen.com/posts/db46b5b7.html</loc>
     
     <lastmod>2021-05-21</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://lzzviolen.com/posts/4a17b156.html</loc>
     
     <lastmod>2021-05-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://lzzviolen.com/link/index.html</loc>
-    
-    <lastmod>2021-04-28</lastmod>
     
   </url>
   
@@ -53,7 +53,7 @@
 
   <url>
     <loc>http://lzzviolen.com/</loc>
-    <lastmod>2021-05-21</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,14 +61,14 @@
   
   <url>
     <loc>http://lzzviolen.com/tags/Atcoder/</loc>
-    <lastmod>2021-05-21</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://lzzviolen.com/tags/ACM/</loc>
-    <lastmod>2021-05-21</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -77,7 +77,7 @@
   
   <url>
     <loc>http://lzzviolen.com/categories/Atcoder/</loc>
-    <lastmod>2021-05-21</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
